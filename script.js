@@ -11,3 +11,8 @@ for (let i = 0; i < showModal.length; i++)
   showModal[i].addEventListener('click', function () {
     modal.classList.remove('hidden');
   });
+
+// Close modal
+closeModal.addEventListener('click', function () {
+  modal.classList.add('hidden');
+});
